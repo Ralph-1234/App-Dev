@@ -1,0 +1,32 @@
+<body>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init({
+        publicKey: "9oABz35lVwLPilESN",
+        });
+    })();
+</script>
+<script src="/src/contact/contact.js"></script>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <p>Contact</p>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="phone" placeholder="Phone No.">
+
+            <textarea id="message" rows="5" placeholder="Message..."></textarea>
+            <button type="submit" onclick="sendEmail()" >Submit</button>
+
+        </form>
+    </div>
+</body>
+
+<footer class="foot">
+    <p>Other Contacts:</p>
+    <br>
+    <p>Email: 20246392@s.ubaguio.edu</p>
+</footer>

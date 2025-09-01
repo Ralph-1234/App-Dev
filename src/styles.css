@@ -1,0 +1,201 @@
+header{
+    position: fixed;
+    width: 85%;
+    padding: 10px 9%;
+    top: 0;
+    left: 0;
+    background-color: #5f9ea093;
+    box-shadow:  0px 0px 4px 2px whitesmoke;
+}
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navi p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px; /* spacing between links */
+}
+.navi a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+.navi a:hover{
+    text-decoration: underline yellow;
+}
+/* Home CSS*/
+body{
+    background-color: black;
+    text-align: center;
+}
+main{
+    font-family: monospace ;
+    margin-top: 90px;
+    color: white;
+    border-radius: 5px;
+    background-color: #5f9ea093;
+}
+p{
+    font-size: large;
+    margin: 15px;
+}
+h2{
+    color: white;
+    padding-top: 1rem;
+}
+main img{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-size: cover;
+    background-image: url(assets/ralph.jpeg);
+    box-shadow: 0px 0px 8px 2px #E3B662;
+}
+footer{
+    border-radius: 5px;
+    background-color: #5f9ea093;
+    margin-top: 25px;
+    padding: 3ch;
+    border: 1px solid none;
+    color: white;
+}
+
+/*Contact Css*/
+.container{
+    margin-top: 2%;
+    text-align: center;
+    align-items: center; 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin-bottom: -30px;
+}
+.container p{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+form{
+    background-color: #5f9ea093;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+form input, form textarea{
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 5px;
+    outline: none;
+    border-radius: 7px;
+}
+form button{
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff7f7;
+    width: 180px;
+    margin: 20px auto;
+}
+form button:hover{
+    border: 1px solid black;
+}
+:placeholder-shown{
+    font-weight: bold;
+    font-size: medium;
+}
+.foot p{
+    margin-top: -20px;
+    font-size: small;
+}
+
+/*ABOUT CSS*/
+.mains{
+    margin-top: 90px;
+    width: 100%;
+    height: 630px;
+    background-color: #5f9ea093;
+}
+.mains img{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-size: cover;
+    background-image: url(assets/ralph.jpeg);
+    box-shadow: 0px 0px 8px 2px goldenrod;
+}
+.mains h1{
+    padding-top: 8px;
+    color: white;
+    font-family: monospace;
+}
+.mains p{
+    font-size: x-large;
+    margin: 30px;
+    font-family: monospace;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+  .background {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+
+/* PREV CODE
+body {
+  background-color: #202124;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    margin-top: 120px;
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+}
+.background {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 80%;
+    height: 500px;
+}
+.background img{ 
+    width: 400px;
+    height: 380px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url(assets/ralph.jpeg);
+    box-shadow: 0px 0px 8px 2px rgb(233, 201, 138); 
+} */ 
+   /* background-size: cover; 
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-top: -350px;
+    width: 400px; 
+    height: 400px; 
+    border: 1px solid white;   */
